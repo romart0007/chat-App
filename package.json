@@ -1,0 +1,32 @@
+{
+    "name": "chat app",
+    "version": "1.0.0",
+    "description": "private chat application built with angularjs and nodejs using Mysql as db.",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Romart A.",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "express": "^4.16.2",
+        "mysql": "^2.15.0",
+        "socket.io": "^2.0.4"
+    },
+    "devDependencies": {
+        "browser-sync": "^2.26.3",
+        "eslint": "^4.16.0",
+        "gulp": "^3.9.1",
+        "gulp-autoprefixer": "^6.0.0",
+        "gulp-babel": "^8.0.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-error-handle": "^1.0.1",
+        "gulp-imagemin": "^5.0.3",
+        "gulp-nodemon": "^2.4.2",
+        "gulp-sass": "^3.2.0",
+        "gulp-sourcemaps": "^2.6.4",
+        "gulp-uglify": "^3.0.1",
+        "gulp-uglify-es": "^1.0.4"
+    }
+}

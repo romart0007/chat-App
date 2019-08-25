@@ -1,0 +1,34 @@
+.home-page {
+    max-width: 640px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.home-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px 16px;
+    border-bottom: 1px solid #ccd6dd;
+}
+
+.home-header p {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    line-height: 1.2;
+}
+
+.home-header span {
+    background: #666666;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: .1em;
+    line-height: 1.5;
+    right: 16px;
+    padding: 5px 10px;
+    position: absolute;
+}
